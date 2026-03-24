@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDBIRD | Gaming Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0b0e13; color: #ffffff; }
+        .redbird-accent { color: #bf1313; }
+        .bg-redbird { background-color: #bf1313; }
+        .border-redbird { border-color: #bf1313; }
+        .nav-link:hover { color: #bf1313; transition: 0.3s; }
+        .card-hover:hover { transform: translateY(-4px); transition: 0.3s; border-color: #bf1313; }
+        .sticky-nav { position: sticky; top: 0; z-index: 50; }
+    </style>
+</head>
+<body class="font-sans">
+
+    <header class="bg-black border-b-4 border-redbird sticky-nav">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
+            <div class="flex items-center space-x-10">
+                <span class="text-3xl font-black tracking-tighter text-white">REDBIRD</span>
+                <nav class="hidden lg:flex space-x-8 font-bold text-xs uppercase tracking-widest">
+                    <a href="#featured" class="nav-link">Featured</a>
+                    <a href="#reviews" class="nav-link">Reviews</a>
+                    <a href="#guides" class="nav-link">BGMI Guides</a>
+                    <a href="#videos" class="nav-link">Videos</a>
+                    <a href="#contest" class="nav-link">Contest</a>
+                </nav>
+            </div>
+            <div class="flex items-center space-x-5 text-sm">
+                <a href="mailto:rahulsagar372@gmail.com" class="hover:text-red-600"><i class="fas fa-envelope"></i></a>
+                <a href="https://instagram.com/rahuldj28" target="_blank" rel="noreferrer" class="bg-redbird text-white px-5 py-1.5 font-bold rounded-sm uppercase text-xs">Follow</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8">
+
+        <div id="featured" class="grid grid-cols-1 lg:grid-cols-4 gap-4 mb-12">
+            <div class="lg:col-span-3 relative group overflow-hidden rounded-sm shadow-xl">
+                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80" alt="REDBIRD Gaming" class="w-full h-[550px] object-cover group-hover:scale-105 transition duration-700">
+                <div class="absolute bottom-0 left-0 right-0 p-10 bg-gradient-to-t from-black via-black/70 to-transparent">
+                    <span class="bg-redbird text-white px-3 py-1 text-xs font-bold uppercase mb-3 inline-block">REDBIRD Exclusive</span>
+                    <h1 class="text-4xl md:text-6xl font-black leading-tight uppercase italic">REDBIRD Weekly Gaming Drops</h1>
+                    <p class="text-gray-300 mt-4 text-lg max-w-3xl">Catch PUBG, BGMI, COD Mobile, COD PC, and Tom Clancy gameplay highlights, stream replays, and weekly community updates in one bold gaming hub.</p>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <h2 class="text-sm font-black border-l-4 border-redbird pl-3 uppercase tracking-tighter">Latest Highlights</h2>
+
+                <div class="bg-gray-900/50 p-3 rounded-sm border border-transparent card-hover flex flex-col gap-2">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=400" class="h-32 w-full object-cover rounded-sm" alt="BGMI Scrims">
+                    <h3 class="text-sm font-bold leading-snug hover:text-red-500 cursor-pointer">BGMI Scrims, ranked pushes, and creator-led squad highlights from the latest REDBIRD sessions.</h3>
+                </div>
+
+                <div class="bg-gray-900/50 p-3 rounded-sm border border-transparent card-hover flex flex-col gap-2">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=400" class="h-32 w-full object-cover rounded-sm" alt="COD Highlights">
+                    <h3 class="text-sm font-bold leading-snug hover:text-red-500 cursor-pointer">COD Mobile and PC clips built for fast edits, intense moments, and repeat-view gameplay content.</h3>
+                </div>
+            </div>
+        </div>
+
+        <section id="reviews">
+            <div class="flex justify-between items-end mb-6 border-b border-gray-800 pb-3">
+                <h2 class="text-3xl font-black uppercase italic tracking-tighter">Top Reviews</h2>
+                <a href="#videos" class="text-xs font-bold text-gray-500 hover:text-red-500 tracking-widest">VIEW ALL CONTENT →</a>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-gray-900 rounded-sm overflow-hidden border border-gray-800 card-hover">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&w=400" class="w-full h-44 object-cover" alt="PUBG Review">
+                        <div class="absolute bottom-0 right-0 bg-redbird p-3 font-black text-2xl">8.8</div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-bold text-sm leading-tight uppercase">PUBG Battle Sessions</h4>
+                        <p class="text-[10px] text-red-500 font-bold mt-2 uppercase">High Energy</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-900 rounded-sm overflow-hidden border border-gray-800 card-hover">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&w=400" class="w-full h-44 object-cover" alt="BGMI Update">
+                        <div class="absolute bottom-0 right-0 bg-redbird p-3 font-black text-2xl">9.4</div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-bold text-sm leading-tight uppercase">BGMI Weekly Grind</h4>
+                        <p class="text-[10px] text-red-500 font-bold mt-2 uppercase">Amazing</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-900 rounded-sm overflow-hidden border border-gray-800 card-hover">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=400" class="w-full h-44 object-cover" alt="COD Review">
+                        <div class="absolute bottom-0 right-0 bg-redbird p-3 font-black text-2xl">8.6</div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-bold text-sm leading-tight uppercase">COD Mobile & PC</h4>
+                        <p class="text-[10px] text-red-500 font-bold mt-2 uppercase">Strong</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-900 rounded-sm overflow-hidden border border-gray-800 card-hover">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=400" class="w-full h-44 object-cover" alt="Tom Clancy Review">
+                        <div class="absolute bottom-0 right-0 bg-redbird p-3 font-black text-2xl">9.1</div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-bold text-sm leading-tight uppercase">Tom Clancy Tactical Ops</h4>
+                        <p class="text-[10px] text-red-500 font-bold mt-2 uppercase">Elite</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="guides" class="mt-14">
+            <div class="flex justify-between items-end mb-6 border-b border-gray-800 pb-3">
+                <h2 class="text-3xl font-black uppercase italic tracking-tighter">BGMI Guides</h2>
+                <a href="#contest" class="text-xs font-bold text-gray-500 hover:text-red-500 tracking-widest">JOIN WEEKLY CONTEST →</a>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-900 rounded-sm p-5 border border-gray-800 card-hover">
+                    <p class="text-[10px] text-red-500 font-bold uppercase tracking-widest">Guide 01</p>
+                    <h3 class="text-xl font-black uppercase mt-3">Best Sensitivity Setup</h3>
+                    <p class="text-gray-400 mt-3 leading-7">Use this space for your personal BGMI sensitivity guide, recoil control tips, and aim settings for smoother gameplay.</p>
+                </div>
+
+                <div class="bg-gray-900 rounded-sm p-5 border border-gray-800 card-hover">
+                    <p class="text-[10px] text-red-500 font-bold uppercase tracking-widest">Guide 02</p>
+                    <h3 class="text-xl font-black uppercase mt-3">Rank Push Strategy</h3>
+                    <p class="text-gray-400 mt-3 leading-7">Break down drop locations, safer rotations, team coordination, and late-game decisions for weekly ranked sessions.</p>
+                </div>
+
+                <div class="bg-gray-900 rounded-sm p-5 border border-gray-800 card-hover">
+                    <p class="text-[10px] text-red-500 font-bold uppercase tracking-widest">Guide 03</p>
+                    <h3 class="text-xl font-black uppercase mt-3">Close Range Fight Tips</h3>
+                    <p class="text-gray-400 mt-3 leading-7">Add your own creator-style tips for close combat, movement control, peek timing, and smart gunfight decisions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos" class="mt-14">
+            <div class="flex justify-between items-end mb-6 border-b border-gray-800 pb-3">
+                <h2 class="text-3xl font-black uppercase italic tracking-tighter">Videos & Streams</h2>
+                <a href="https://instagram.com/rahuldj28" target="_blank" rel="noreferrer" class="text-xs font-bold text-gray-500 hover:text-red-500 tracking-widest">FOLLOW ON INSTAGRAM →</a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gray-900 rounded-sm overflow-hidden border border-gray-800 card-hover">
+                    <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=900&q=80" class="w-full h-64 object-cover" alt="Stream Replay">
+                    <div class="p-5">
+                        <p class="text-[10px] text-red-500 font-bold uppercase tracking-widest">Featured Replay</p>
+                        <h3 class="text-2xl font-black uppercase mt-3">Weekly Stream Highlights</h3>
+                        <p class="text-gray-400 mt-3 leading-7">Use this area for your best stream replay, fan-favorite moments, and fast-cut highlight edits from the week.</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-900 rounded-sm overflow-hidden border border-gray-800 card-hover">
+                    <img src="https://images.unsplash.com/photo-1542751110-97427bbecf20?auto=format&fit=crop&w=900&q=80" class="w-full h-64 object-cover" alt="Creator Videos">
+                    <div class="p-5">
+                        <p class="text-[10px] text-red-500 font-bold uppercase tracking-widest">Creator Drop</p>
+                        <h3 class="text-2xl font-black uppercase mt-3">Gameplay Stories & Clips</h3>
+                        <p class="text-gray-400 mt-3 leading-7">Perfect for upload announcements, montage drops, funny moments, tactical clips, and short-form creator content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contest" class="mt-14">
+            <div class="bg-gradient-to-r from-red-900/40 to-black border border-red-900/40 rounded-sm p-8 md:p-12">
+                <p class="text-[10px] text-red-400 font-bold uppercase tracking-[0.3em]">Weekly Contest</p>
+                <h2 class="text-4xl md:text-6xl font-black uppercase italic mt-4">Play. Watch. Win.</h2>
+                <p class="text-gray-300 mt-5 text-lg max-w-3xl leading-8">Every week, REDBIRD fans can join contests through stream participation, community tasks, or gameplay challenges and win exciting prizes.</p>
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <a href="https://instagram.com/rahuldj28" target="_blank" rel="noreferrer" class="bg-redbird text-white px-6 py-3 font-bold uppercase text-sm rounded-sm">Enter via Instagram</a>
+                    <a href="mailto:rahulsagar372@gmail.com" class="border border-gray-600 px-6 py-3 font-bold uppercase text-sm rounded-sm hover:border-red-700 hover:text-red-400 transition">Ask for Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="bg-black py-16 border-t-8 border-redbird mt-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-5xl font-black mb-6 tracking-tighter">REDBIRD</h2>
+            <div class="flex justify-center space-x-8 text-xl text-gray-500 mb-10">
+                <a href="mailto:rahulsagar372@gmail.com" class="hover:text-red-500"><i class="fas fa-envelope"></i></a>
+                <a href="https://instagram.com/rahuldj28" target="_blank" rel="noreferrer" class="hover:text-red-500"><i class="fab fa-instagram"></i></a>
+                <a href="#videos" class="hover:text-red-500"><i class="fas fa-play"></i></a>
+                <a href="#contest" class="hover:text-red-500"><i class="fas fa-trophy"></i></a>
+            </div>
+            <nav class="flex flex-wrap justify-center gap-6 text-xs font-bold text-gray-500 uppercase mb-8">
+                <a href="#featured" class="hover:text-white">Featured</a>
+                <a href="#reviews" class="hover:text-white">Reviews</a>
+                <a href="#guides" class="hover:text-white">Guides</a>
+                <a href="#contest" class="hover:text-white">Contest</a>
+                <a href="mailto:rahulsagar372@gmail.com" class="hover:text-white">Contact</a>
+            </nav>
+            <p class="text-gray-700 text-[10px] uppercase tracking-widest">© 2026 REDBIRD GAMING | Weekly streams, creator drops, and fan contests</p>
+        </div>
+    </footer>
+
+</body>
+</html>
